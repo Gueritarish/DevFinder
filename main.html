@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+		<script defer type="module" src="index.js"></script>
+
+	</head>
+	<body>
+        <div class="find-dev">
+			<h1 class="def-finder-label1">Dev</h1>
+			<h1 class="def-finder-label2">Finder</h1>
+
+			<div class="text-box">
+				<input id="search-input" type="text" placeholder="Search Github">
+				<span id="search-error"></span>
+			</div>
+            <div class="buttons">
+				<button id="find-btn">
+					Find
+				</button>
+			</div>
+		</div>
+		<div class="data-container">
+			<div class="img-container">
+				<img id="user-img" width="156" height="156"/>
+			</div>
+			<div class="stats">
+				<div class="repos">
+					<span id="nb-repos">0</span>
+					<span class="repos-label">Repos</span>
+				</div>
+				<div class="followers">
+					<span id="nb-followers">0</span>
+					<span class="followers-label">Followers</span>
+				</div>
+				<div class="following">
+					<span id="nb-following">0</span>
+					<span class="following-label">Following</span>
+				</div>
+			</div>
+			
+			<div class="user-data">
+				<div class="data-login">
+					<span id="name">name</span>
+					<span id="login">login</span>
+				</div>
+				<div class="twitter">
+					<span style="font-size:24px" class="fa">&#xf099;</span>
+					<span id="twitter_username">Not available</span>
+				</div>
+				<div class="company">
+					<span class="material-icons">&#xe8f9;</span>
+					<span id="company_name">Not available</span>
+				</div>
+				<div class="blog">
+					<span class="material-icons">&#xe157;</span>
+					<span id="blog_link">Not available</span>
+				</div>
+				<div class="location">
+					<span class="material-icons">&#xe88a;</span>
+					<span id="location_name">Not available</span>
+				</div>
+			</div>
+			<div class="bio-and-date">
+				<div class="biography">
+					<span class="bio-label">Biography</span>
+					<p id="bio-text"><i>None</i></p>
+				</div>
+				<div class="creation-date">
+					<span class="joined-on">Joined on</span>
+					<span id="join-date">No date yet</span>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>

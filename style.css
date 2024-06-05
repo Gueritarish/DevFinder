@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Trykker');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Montserrat,sans-serif;
+	background-color: rgb(4, 59, 90),; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(to top left,rgb(4, 59, 90),rgb(4, 59, 90) ,rgb(5, 91, 65));
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	max-width: 100%;
+}
+
+h1 {
+	font-family: Trykker;
+	margin: 10px 0;
+    color: rgb(255, 255, 255);
+	word-break: break-all;
+	font-size: 100px;
+	font-weight: bolder;
+}
+
+p {
+    color: white;
+	word-break: break-word;
+}
+
+a { 
+	color: white;
+}
+
+span {
+	color: white;
+}
+
+.material-icons,.fa {
+	color: white;
+	float: left;
+	padding-right: 10px;
+}
+
+.find-dev
+{
+	margin-left: auto;
+	margin-right: 8%;
+	height: 8%;
+	max-width: 55%;
+	display: flex;
+	flex-direction: column;
+	justify-content: right;
+	align-self: right;
+}
+
+.def-finder-label1{
+	margin-left: auto;
+	margin-right: 8%;
+	transform: translate(0,45px);
+}
+
+.def-finder-label2 {
+	margin-left: auto;
+	margin-right: 8%;
+	margin-bottom: 28%;
+	margin-top: auto;
+}
+
+#search-input{
+	font-family: Montserrat,sans-serif;
+	width: 550px;
+	font-size: 30px;
+	text-indent: 10px;
+	border: 2px solid;
+	border-radius: 30px;
+	margin-top: 8%;
+	margin-bottom: 4%;
+	/* border-image: linear-gradient(to left,rgba(255,255,255,0), rgba(0,0,0,0)); */
+	border-color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+}
+
+#search-error{
+	font-family: Montserrat,sans-serif;
+	font-size: 17px;
+	color: red;
+	font-weight: 700;
+}
+
+.buttons{
+
+	margin-right: 0;
+	margin-left: auto;
+	
+}
+
+#find-btn{
+	width: 250px;
+	font-family: Montserrat,sans-serif;
+	font-size: 30px;
+	color: #FFFFFF;
+	border: 2px solid white;
+	border-radius: 30px;
+	margin-top: 8%;
+	margin-bottom: 8%;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: linear-gradient(to right,rgba(4, 90, 64,0.4), rgba(255,255,255,0))
+}
+
+.data-container {
+    background: linear-gradient(75deg, rgb(7, 61, 92),rgb(30, 82, 105), rgb(30, 82, 105));
+	padding-top: 30px;
+	height: auto;
+	max-width: 45%;
+	max-height: 55%;
+	margin-right: 10%;
+	display: flex;
+	flex-flow: row wrap;
+	column-count: 3;
+	justify-content: left;
+	border-radius: 45px;
+	border: 2px solid white;
+	background-clip: border-box;
+}
+
+.img-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: left;
+	width: 30%;
+	margin-left: 10%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+#user-img{
+	border: 1px solid whitesmoke;
+	border-radius: 50%;
+}
+
+.stats{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+}
+
+.stats>div{
+	margin-left: 8%;
+	margin-right: 8%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.repos-label, .followers-label, .following-label{
+	font-size: 20px;
+}
+
+#nb-repos,#nb-followers,#nb-following{
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.user-data{
+	display: flex;
+	flex-direction: column;
+	justify-content: right;
+	padding-left: 10%;
+	width: 45%;
+}
+
+.login{
+	display: flex;
+	flex-direction: column;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+#name{
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+#login{
+	font-size: 20px;
+}
+
+.twitter,.company,.blog,.location{
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+.bio-and-date {
+	display: flex;
+	flex-direction: column;
+	width: 55%;
+	height: 80%;
+	
+}
+
+.biography {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.bio-label{
+	font-size: 20px;
+}
+#bio-text{
+	font-size: 20px;
+	font-weight: bolder;
+	margin-right: 8%;
+	word-break: break-word;
+}
+
+.creation-date{
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+	padding-top: 17%;
+	margin-bottom: 8%;
+}
+
+
+.joined-on {
+	margin-left: auto;
+	margin-right: 8%;
+	height: 8%;
+}
+
+#join-date{
+	margin-left: auto;
+	margin-right: 8%;
+	height: 8%;
+}
+
+
+
+.text-box, .data-login{
+	display: flex;
+	flex-direction: column;
+}

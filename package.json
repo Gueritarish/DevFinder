@@ -1,0 +1,13 @@
+{
+  "name": "ama-exercice",
+  "version": "1.0.0",
+  "description": "Packages for the final test",
+  "main": "index.js",
+  "repository": "git@github.com:Gueritarish/AMA-Exercice.git",
+  "author": "Axel Mercier <axel.mercier@epita.fr>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
